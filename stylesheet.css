@@ -3,10 +3,11 @@ body {
     background-color:lightblue; 
     border-style: groove;
     border-width: 5px;
+    border-color: darkblue;
   }
   h2 {
       text-align: center;
-      text-decoration-color: blueviolet;
+      
   }
   input {
       text-align: center;
