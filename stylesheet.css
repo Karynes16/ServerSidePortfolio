@@ -16,3 +16,6 @@ body {
   input {
       text-align: center;
   }
+tbody {
+    font-size: 20;
+}
