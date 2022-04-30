@@ -37,7 +37,8 @@
          // If so, do nothing (because a connection has not been made yet).
         if($connection != null) {
             // Get the results of a query using the connection
-            // TODO: Write SQL SELECT statement to read first name, last name, city, and state.
+            // Using CRUD (Read) I've used Select to fetch data from the SQL table to grab the names, 
+            // cities, states from the podcast subscribers.
             $var1 = "SELECT `first_name`,`last_name`, `city`, `state` FROM `customers`;";
             $results = mysqli_query($connection, $var1);
             //working on this above
@@ -58,6 +59,7 @@
                 echo("<td>".$row["last_name"]. "</td>");
                 echo("<td>".$row["city"]. "</td>");
                 echo("<td>".$row["state"]. "</td>");
+                echo("<td>".$row["email"]. "</td>");
                 
 
                 // End the row.
