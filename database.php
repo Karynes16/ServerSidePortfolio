@@ -9,7 +9,7 @@
     $password = "";
 
     // Database
-    $database = "subcribers";
+    $database = "sales";
 
     // Global connection
     $connection = null;
@@ -29,7 +29,7 @@
         }
     }
 
-    function subscribersTable() {
+    function salesTable() {
         // Use global $connection locally.
         global $connection;
 
@@ -57,7 +57,6 @@
                 echo("<td>".$row["first_name"]. "</td>");
                 echo("<td>".$row["last_name"]. "</td>");
                 echo("<td>".$row["city"]. "</td>");
-               
                 echo("<td>".$row["state"]. "</td>");
                 
 
