@@ -1,5 +1,6 @@
 CREATE DATABASE sales;
 
+--creating table with list of podcast subcribers 
 CREATE TABLE pod.subscribers (
 	customer_id INT(11),
 	first_name VARCHAR (255),
