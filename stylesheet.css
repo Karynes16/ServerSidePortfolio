@@ -1,0 +1,12 @@
+
+body {
+    background-color:lightblue; 
+    border-style: groove;
+  }
+  h2 {
+      text-align: center;
+      text-decoration-color: blueviolet;
+  }
+  input {
+      text-align: center;
+  }
