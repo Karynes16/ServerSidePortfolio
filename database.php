@@ -59,7 +59,7 @@
                 echo("<td>".$row["last_name"]. "</td>");
                 echo("<td>".$row["city"]. "</td>");
                 echo("<td>".$row["state"]. "</td>");
-                echo("<td>".$row["email"]. "</td>");
+                //echo("<td>".$row["email"]. "</td>");
                 
 
                 // End the row.
