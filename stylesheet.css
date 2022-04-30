@@ -4,6 +4,7 @@ body {
     border-style: groove;
     border-width: 5px;
     border-color: darkblue;
+    font-size: 20;
   }
   h2 {
       text-align: center;
