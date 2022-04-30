@@ -8,6 +8,7 @@
   </head>
   <body>
    <h2>Current Podcast Subscribers</h2>
+   <p> hello </p>
     <?php
        connect();
        salesTable();
