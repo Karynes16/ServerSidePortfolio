@@ -9,7 +9,7 @@
     $password = "";
 
     // Database
-    $database = "sales";
+    $database = "subcribers";
 
     // Global connection
     $connection = null;
@@ -29,7 +29,7 @@
         }
     }
 
-    function salesTable() {
+    function subscribersTable() {
         // Use global $connection locally.
         global $connection;
 

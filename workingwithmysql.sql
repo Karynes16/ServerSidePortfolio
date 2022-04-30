@@ -1,4 +1,4 @@
-CREATE DATABASE sales;
+CREATE DATABASE subscribers;
 
 CREATE TABLE pod.subscribers (
 	customer_id INT(11),
