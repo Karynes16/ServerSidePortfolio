@@ -17,13 +17,13 @@
        ?>
 
 <form action="index.php" method="POST">
+<br></br>
+<h3>Not subcribed? Subscribe below!</h3>
 <input type="number" name="customer_id"/>
 <input type="text" name="first_name"/>
 <input type="text" name="last_name"/>
 <input type="text" name="city"/>
 <input type="text" name="state"/>
-<br></br>
-<h3>Not subcribed? Subscribe below!</h3>
 <input type="submit"/>
 </form>
 </body>
