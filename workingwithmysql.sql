@@ -14,6 +14,7 @@ CREATE TABLE pod.subscribers (
     PRIMARY KEY(customer_id)
 );
 
+--Using INSERTINTO which maps to create using CRUD
 INSERT INTO pod.subscribers(customer_id, first_name, last_name, phone, street, city, state) VALUES(0, 'Debra','Burks',NULL,'9273 Thorne Ave. ','@blondie.k','NYC');
 INSERT INTO pod.subscribers(customer_id, first_name, last_name, phone, street, city, state) VALUES(1, 'Kasha','Todd',NULL,'910 Vine Street ','@souplover','CA');
 INSERT INTO pod.subscribers(customer_id, first_name, last_name, phone, street, city, state) VALUES(2, 'Tameka','Fisher',NULL,'769C Honey Creek St. ','@sassy.sammy','CA');
