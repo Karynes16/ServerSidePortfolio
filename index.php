@@ -8,7 +8,7 @@
   </head>
   <body>
    <h2>Current Podcast Subscribers</h2>
-   <p> Hey there! Welcome to our Podcast! Thanks for subscribing, see your name below! </p>
+   <h3> Hey there! Welcome to our Podcast! Thanks for subscribing, see your name below! </h3>
     <?php
        connect();
        salesTable();
